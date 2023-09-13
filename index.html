@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTC to IST Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>UTC to IST Converter</h1>
+    <h3> Please Enter time in 24 hrs format</h3>
+
+    <label for="utc-hours">Enter UTC Hours:</label>
+    <input type="number" id="hours" min="0" max="23"> <br>
+
+    <label for="utc-minutes">Enter UTC Minutes:</label>
+    <input type="number" id="minutes" min="0" max="59"> <br>
+
+    <button onclick="convert()">Convert to IST</button>
+
+    <h2 id="showtime">Time in IST: </h2>
+
+    <script src="app.js"></script>
+</body>
+</html>
